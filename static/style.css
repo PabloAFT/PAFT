@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
+
+
+
 h1,h2,h3 {
     font-family: 'Chewy', cursive;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
@@ -12,10 +15,27 @@ h1,h2,h3 {
     text-align: center;
     letter-spacing: 20px;
     text-shadow: 5px 5px 0px rgba(0,0,0,0.4);
+    /* padding: 120px 0 0 0; */
 
 }
+
+
+nav .title {
+    letter-spacing: 5px;
+}
+nav {
+    background-color: #FADFA1;
+}
+
+
+.main .menu .row{
+    padding: 10px 0 10px 0;
+    /* ++ */
+    /* margin: auto; */
+}
+
 .main>.row {
-    padding: 120px 0 120px 0;
+    padding: 100px 0 120px 0;
 }
 
 .main {
@@ -28,7 +48,7 @@ a {
     color: blue;
 }
 a:hover {
-    color: brown;
+    mix-blend-mode:overlay
 }
 .P {
     color: #7DF4F4;
