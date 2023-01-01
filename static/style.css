@@ -48,7 +48,8 @@ a {
     color: blue;
 }
 a:hover {
-    mix-blend-mode:overlay
+    mix-blend-mode:exclusion;
+
 }
 .P {
     color: #7DF4F4;
